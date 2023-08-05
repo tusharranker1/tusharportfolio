@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Lobster&family=Poiret+One&family=Titillium+Web:wght@200&display=swap');
+.nav-wrapper-unactive{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    border-radius: 10px;
+    top: 0;
+    transition: background-color 0.4s,height 0.4s;
+    z-index: 3;
+    overflow: hidden;
+    
+}
+.nav-wrapper-active{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    transition: background-color 0.4s , height 0.4s;
+    z-index: 3;
+    overflow: hidden;
+    
+}
+
+.nav-heading{
+    position: absolute;
+    left: 4%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+}
+.nav-heading:hover{
+    cursor: pointer;
+}
+.nav-heading h1{
+    letter-spacing: 12px;
+    font-size: 2.5rem;
+    font-weight: 100;
+    transition: transform 0.3s;
+}
+.nav-heading h1 span{
+    font-size: 2.5rem;
+    
+   
+}
+.nav-content{
+    position: absolute;
+    font-size: 16px;
+    right: 7%;
+    
+}
+
+.nav-content ul{
+    display: flex;
+
+}
+.nav-content ul li{
+    width: 100px;
+    list-style:none;
+    
+    
+}
+.nav-content-link{
+    position: relative;
+    letter-spacing: 2px;
+    height: 100%;
+    width: 100%;
+    color: red;
+    text-shadow: 1px 2px 3px red;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav-content-link::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color: red;
+    box-shadow: 0px 0px 5px 1px red;
+    transform: translateY(25px);
+    transition: width 0.3s;
+}
+.nav-content-link:hover:before{
+    width: 100%;
+    
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    .nav-heading h1{
+       transform: scale(0.5) translateX(-50px);
+       display: none;
+       
+    }
+    .nav-content-link{
+        color: white;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .nav-heading h1{
+       transform: scale(0.5) translateX(-50px);
+       display: none;
+       
+    }
+    .nav-content-link{
+        color: white;
+    }
+    .nav-content ul li{
+        width: 60px;
+        list-style:none;
+        margin-right: 20px;
+        
+    }
+}
+/* nav-side bar */
+.sideNav-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}

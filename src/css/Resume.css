@@ -1,0 +1,286 @@
+.resume-wrapper {
+    height: 180vh;width: 100% ;
+    background-color: black;
+    position: relative;
+    /* z-index: -1; */
+    overflow: hidden;
+}
+
+.education-heading {
+    color: white;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 12px;
+}
+
+.card1-wrapper {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.education-card-first {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    border-radius: 20px;
+    background-color: black;
+    overflow: hidden;
+
+
+
+}
+
+.education-card-second {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.education-img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.education-card-first-content {
+    position: absolute;
+    color: rgb(255, 0, 0);
+    height: 300px;
+    width: 700px;
+    right: 7%;
+    top: 20%;
+    overflow: hidden;
+}
+
+.education-card-second-content {
+    position: absolute;
+    color: rgb(255, 0, 0);
+    height: 300px;
+    width: 700px;
+    left: 7%;
+    top: 56%;
+    overflow: hidden;
+}
+
+.education-card-first-content h1 {
+    /* text-align: center; */
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    letter-spacing: 4px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(133, 0, 0);
+
+}
+
+.education-card-first-content ul {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.653);
+}
+
+.education-card-first-content ul li {
+    margin: 10px 0px;
+}
+
+.education-card-second-content h1 {
+    /* text-align: center; */
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    letter-spacing: 4px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(133, 0, 0);
+
+}
+
+.education-card-second-content ul {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.653);
+}
+
+.education-card-second-content ul li {
+    margin: 10px 0px;
+}
+
+.button-group {
+    width: 100%;
+
+    display: flex;
+
+}
+
+.button-wrapper {
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.button {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(255, 0, 0, 0.695);
+}
+
+.button-link {
+    z-index: 2;
+}
+
+.button-link:hover {
+    cursor: pointer;
+}
+
+/* -------Media Query----------- */
+
+@media screen and (max-width: 1000px) {
+    .education-heading{
+        font-size: 1em;
+    }
+    .education-card-first{
+        height: 300px;
+        width: 300px;
+        /* border: 1px solid red; */
+        top: 6%;
+    }
+    .education-card-first-content{
+        height: 400px;
+    width: 80%;
+    top: 22%;
+    }
+    .education-card-second-content{
+        height: 400px;
+    width: 80%;
+    top: 64%;
+    left: 10%;
+    }
+    .education-card-first-content h1{
+        font-size: 2em;
+    }
+    .education-card-second-content h1{
+        font-size: 2em;
+        
+    }
+    .education-card-first-content ul{
+        font-size: 1em;
+    }
+
+    .education-card-second{
+        height: 200px;
+        width: 200px;
+        top: 45%;
+        left: 20%;
+    }
+    .button{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .resume-wrapper{
+        height: 210vh;
+    }
+    .education-heading{
+        font-size: 3em;
+    }
+    .education-card-first{
+        height: 300px;
+        width: 300px;
+        /* border: 1px solid red; */
+        top: 6%;
+    }
+    .education-card-first-content{
+        height: 400px;
+    width: 80%;
+    top: 34%;
+    }
+    .education-card-second-content{
+        height: 400px;
+    width: 80%;
+    top: 80%;
+    left: 10%;
+    }
+    .education-card-first-content h1{
+        font-size: 2em;
+    }
+    .education-card-second-content h1{
+        font-size: 2em;
+        
+    }
+    .education-card-first-content ul{
+        font-size: 15px;
+    }
+    .education-card-second-content ul{
+        font-size: 15px;
+    }
+
+    .education-card-second{
+        height: 200px;
+        width: 200px;
+        top: 57%;
+        left: 18%;
+    }
+    .button{
+        padding: 5px;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .education-heading{
+        font-size: 1em;
+    }
+    .education-card-first{
+        height: 200px;
+        width: 200px;
+        /* border: 1px solid red; */
+        top: 6%;
+    }
+    .education-card-first-content{
+        height: 400px;
+    width: 80%;
+    top: 20%;
+    }
+    .education-card-second-content{
+        height: 400px;
+    width: 80%;
+    top: 64%;
+    left: 10%;
+    }
+    .education-card-first-content h1{
+        font-size: 2em;
+    }
+    .education-card-second-content h1{
+        font-size: 2em;
+        
+    }
+    .education-card-first-content ul{
+        font-size: 1em;
+    }
+
+    .education-card-second{
+        height: 200px;
+        width: 200px;
+        top: 50%;
+        left: 10%;
+    }
+    .button{
+        padding: 5px;
+    }
+}

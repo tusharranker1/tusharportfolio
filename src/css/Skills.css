@@ -1,0 +1,85 @@
+.main-wrapper{
+    
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-wrapper {
+    width: 1200px;
+    height: 100px;
+    
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.wrapper {
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(234, 231, 231, 0);
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    animation-name: moveSkill;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes moveSkill {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.skill-content {
+    display: flex;
+    height: 60px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    transition: transform .5s;
+}
+.skill-content:hover{
+    transform: scale(1.2);
+}
+
+.skill-content img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.skill-content h1 {
+    font-size: 1em;
+}
+/* media query */
+
+@media screen and (max-width: 600px) {
+    
+    .skill-wrapper {
+        width: 300px;
+    }
+    .skill-content{
+        height: 30px;
+    width: 50px;
+    }
+    .skill-content img {
+        height: 20px;
+        width: 20px;
+    }
+    
+    .skill-content h1 {
+        font-size: 0.5em;
+    }
+}
