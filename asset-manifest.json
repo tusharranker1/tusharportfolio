@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/tusharportfolio/static/css/main.73309606.css",
+    "main.js": "/tusharportfolio/static/js/main.6f1ed3f5.js",
+    "static/js/787.5ba08a0e.chunk.js": "/tusharportfolio/static/js/787.5ba08a0e.chunk.js",
+    "static/media/HomePageBg.jpg": "/tusharportfolio/static/media/HomePageBg.ea2a46993a7cacf9dc35.jpg",
+    "static/media/fuelcab2.png": "/tusharportfolio/static/media/fuelcab2.accc5fa9836ae72073f5.png",
+    "static/media/fuelcab3.png": "/tusharportfolio/static/media/fuelcab3.031b16e757b9602ca88e.png",
+    "static/media/boxOffice.png": "/tusharportfolio/static/media/boxOffice.c8384dcc9f6ec8a0c463.png",
+    "static/media/CV_pdf": "/tusharportfolio/static/media/CV_2023033117220381.2e9f67b99eb9a55ca478.pdf",
+    "static/media/fuelcab1.png": "/tusharportfolio/static/media/fuelcab1.0dbebf203c03525fd5f5.png",
+    "static/media/fuelcab4.png": "/tusharportfolio/static/media/fuelcab4.671d6d727bf785346b19.png",
+    "static/media/hostinger2.png": "/tusharportfolio/static/media/hostinger2.b085f59da971b79385bf.png",
+    "static/media/hostinger3.png": "/tusharportfolio/static/media/hostinger3.4c1f14a5891f94b41e25.png",
+    "static/media/hostinger4.png": "/tusharportfolio/static/media/hostinger4.8fa8ba48500f5e77b93a.png",
+    "static/media/loginPage.png": "/tusharportfolio/static/media/loginPage.8a3a709a3f3d89a178f6.png",
+    "static/media/Hostinger1.png": "/tusharportfolio/static/media/Hostinger1.93f41b27b530b837d335.png",
+    "static/media/pricingPage.png": "/tusharportfolio/static/media/pricingPage.b7eeaea7935af46d0838.png",
+    "static/media/tictactoe.png": "/tusharportfolio/static/media/tictactoe.1e44f5702425a39ab081.png",
+    "static/media/nextInnovation.jpeg": "/tusharportfolio/static/media/nextInnovation.78bbe4ff36fc31612a7f.jpeg",
+    "static/media/fuelcab.png": "/tusharportfolio/static/media/fuelcab.6669d611139f3ee17d35.png",
+    "static/media/react.svg": "/tusharportfolio/static/media/react.f4d21d794054af8d20624a082749ef90.svg",
+    "static/media/node-js.svg": "/tusharportfolio/static/media/node-js.b44259d183582a642d14c10b98e4aac5.svg",
+    "static/media/php.svg": "/tusharportfolio/static/media/php.32c1e4678025b40c89f47de7923946ad.svg",
+    "static/media/js.svg": "/tusharportfolio/static/media/js.bffe8173ed7f6082ea16c50903494f2d.svg",
+    "index.html": "/tusharportfolio/index.html",
+    "static/media/database-solid (1).svg": "/tusharportfolio/static/media/database-solid (1).e63ee04b3509084e06668d39d7125e33.svg",
+    "static/media/html5.svg": "/tusharportfolio/static/media/html5.2bdd7259d54032f442015503b1caff62.svg",
+    "static/media/css3.svg": "/tusharportfolio/static/media/css3.e9ad15a21a6b95d3aa697087319e2c53.svg",
+    "main.73309606.css.map": "/tusharportfolio/static/css/main.73309606.css.map",
+    "main.6f1ed3f5.js.map": "/tusharportfolio/static/js/main.6f1ed3f5.js.map",
+    "787.5ba08a0e.chunk.js.map": "/tusharportfolio/static/js/787.5ba08a0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73309606.css",
+    "static/js/main.6f1ed3f5.js"
+  ]
+}
