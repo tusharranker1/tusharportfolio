@@ -6,10 +6,9 @@ import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
-    <AnimatePresence >
-      <HomePage/>
+    <AnimatePresence >      
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/tusharportfolio" element={<HomePage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </AnimatePresence>
