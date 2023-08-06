@@ -9,7 +9,7 @@ function App() {
     <AnimatePresence >      
       <Routes>
         <Route path="/tusharportfolio" element={<HomePage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/tusharportfolio/contact" element={<ContactPage />} />
       </Routes>
     </AnimatePresence>
   );
