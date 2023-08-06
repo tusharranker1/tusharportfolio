@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tusharportfolio/static/css/main.73309606.css",
-    "main.js": "/tusharportfolio/static/js/main.6f1ed3f5.js",
+    "main.js": "/tusharportfolio/static/js/main.6301bf9d.js",
     "static/js/787.5ba08a0e.chunk.js": "/tusharportfolio/static/js/787.5ba08a0e.chunk.js",
     "static/media/HomePageBg.jpg": "/tusharportfolio/static/media/HomePageBg.ea2a46993a7cacf9dc35.jpg",
     "static/media/fuelcab2.png": "/tusharportfolio/static/media/fuelcab2.accc5fa9836ae72073f5.png",
@@ -28,11 +28,11 @@
     "static/media/html5.svg": "/tusharportfolio/static/media/html5.2bdd7259d54032f442015503b1caff62.svg",
     "static/media/css3.svg": "/tusharportfolio/static/media/css3.e9ad15a21a6b95d3aa697087319e2c53.svg",
     "main.73309606.css.map": "/tusharportfolio/static/css/main.73309606.css.map",
-    "main.6f1ed3f5.js.map": "/tusharportfolio/static/js/main.6f1ed3f5.js.map",
+    "main.6301bf9d.js.map": "/tusharportfolio/static/js/main.6301bf9d.js.map",
     "787.5ba08a0e.chunk.js.map": "/tusharportfolio/static/js/787.5ba08a0e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73309606.css",
-    "static/js/main.6f1ed3f5.js"
+    "static/js/main.6301bf9d.js"
   ]
 }
