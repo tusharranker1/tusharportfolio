@@ -8,7 +8,7 @@ function App() {
   return (
     <AnimatePresence >      
       <Routes>
-        <Route path="/tusharportfolio" element={<HomePage />} />
+        <Route path="/tusharportfolio/" element={<HomePage />} />
         <Route path="/tusharportfolio/contact" element={<ContactPage />} />
       </Routes>
     </AnimatePresence>
