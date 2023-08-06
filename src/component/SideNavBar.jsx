@@ -21,7 +21,7 @@ export const SideNavBar = () => {
         exit={{ opacity: 0, transform: "translateX(-50px)" }}
         transition={{ duration: 0.5 }}
       >
-        <Link style={{color:'red'}} to='/'><Home /></Link>
+        <Link style={{color:'red'}} to='/tusharportfolio'><Home /></Link>
       </motion.div>
       <motion.div
         initial={{
@@ -48,7 +48,7 @@ export const SideNavBar = () => {
         exit={{ opacity: 0, transform: "translateX(50px)" }}
         transition={{ duration: 0.5 }}
       >
-      <Link style={{color:'red'}} to='/contact'><User /></Link>
+      <Link style={{color:'red'}} to='/tusharportfolio/contact'><User /></Link>
         
       </motion.div>
     </motion.div>

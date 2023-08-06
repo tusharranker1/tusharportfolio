@@ -30,7 +30,7 @@ export const NavBar = ({ navClass }) => {
           >
             <ul>
               <li>
-                <Link className="nav-content-link" to="/">
+                <Link className="nav-content-link" to="/tusharportfolio">
                   Home
                 </Link>
               </li>
@@ -40,7 +40,7 @@ export const NavBar = ({ navClass }) => {
                 </a>
               </li>
               <li>
-                <Link className="nav-content-link" to="/contact">
+                <Link className="nav-content-link" to="/tusharportfolio/contact">
                   Contact
                 </Link>
               </li>
