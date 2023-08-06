@@ -30,7 +30,7 @@ export const NavBar = ({ navClass }) => {
           >
             <ul>
               <li>
-                <Link className="nav-content-link" to="/tusharportfolio">
+                <Link className="nav-content-link" to="/tusharportfolio/">
                   Home
                 </Link>
               </li>
